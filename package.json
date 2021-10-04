@@ -1,0 +1,21 @@
+{
+  "name": "yandexChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mars102/yandexChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mars102/yandexChat/issues"
+  },
+  "homepage": "https://github.com/mars102/yandexChat#readme"
+}
