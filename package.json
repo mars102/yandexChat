@@ -2,11 +2,11 @@
   "name": "yandexChat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "static/index.html",
   "scripts": {
-    "start": "parcel index.html -p 3000",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel static/index.html -p 3000",
+    "dev": "parcel static/index.html",
+    "build": "parcel build static/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/mars102/yandexChat/issues"
   },
-  "homepage": "https://github.com/mars102/yandexChat#readme"
+  "homepage": "https://github.com/mars102/yandexChat#readme",
+  "engines": {
+    "node": "14.10.0"
+  },
+  "dependencies": {
+    "@inventory/parcel-plugin-handlebars": "^1.0.0",
+    "postcss": "^8.3.8",
+    "postcss-grid": "^2.0.0",
+    "parcel-bundler": "^1.12.5"
+  }
 }

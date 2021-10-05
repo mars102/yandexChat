@@ -1,0 +1,41 @@
+---
+pages:
+ 5:
+  href: 404
+  page: Профиль
+ 3:
+  href: auth
+  page: Вход
+ 4:
+  href: reg
+  page: Регистрация
+ 0:
+  href: 500
+  page: 500
+ 1:
+  href: 404
+  page: 404
+ 2:
+  href: 404
+  page: Чат
+---
+<html>
+<body>
+<!--<link rel="stylesheet" href="/style.css">-->
+<script src="../src/index.js"></script>
+<div id="root"></div>
+ <ul>
+  {{#each pages}}
+  <li>
+   <a
+      class="link color-chat"
+      href="../src/pages/{{href}}.html"
+   >
+    {{ page }}
+   </a>
+  </li>
+  {{/each}}
+ </ul>
+
+</body>
+</html>

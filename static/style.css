@@ -1,0 +1,45 @@
+.color-chat{
+    color:red;
+}
+.not-found-chat-image{
+    height: 284px;
+    width: 400px;
+    background-image: url(404.png);
+    background-size: 400px 284px;
+}
+.child-content-center{
+    margin: auto;
+}
+.main-content-center{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.text-title-page-eror{
+    text-align: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:10px;
+}
+
+.button {
+    background-color: #3369f3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.top-mar{
+    margin-top: 50px;
+}
+
+
+
