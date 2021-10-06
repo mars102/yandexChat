@@ -1,0 +1,12 @@
+<form name="registration" method="post" >
+    <h1 class="center">Регистрация  </h1>
+    {{> input text='Почта:' name='email' type='email' }}
+    {{> input text='Логин:' name='login' type='text'}}
+    {{> input text='Имя:' name='first_name' type='text' }}
+    {{> input text='Фамилия:' name='second_name'type='text' }}
+    {{> input text='Телефон:' name='phone' type='text'}}
+    {{> input text='Пароль:' name='password' type='password'}}
+    {{> input text='Пароль(еще раз):' name='password2' type='password'}}
+
+    {{> button text='Зарегистрировать' }}
+</form>
