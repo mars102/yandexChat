@@ -1,29 +1,12 @@
-<form name="test" method="post" action="input1.php">
-    <h1 style="text-align: center">Регистрация  </h1>
-    <p>Почта:<br>
-        <input type="text" name="email" size="40">
-    </p>
-    <p>Логин:<br>
-        <input type="text" name="login" size="40">
-    </p>
-    <p>Имя:<br>
-        <input type="text" name="first_name" size="40">
-    </p>
-    <p>Фамилия:<br>
-        <input type="text" name="second_name" size="40">
-    </p>
-    <p>Телефон:<br>
-        <input type="text" name="phone" size="40">
-    </p>
+<form name="registration" method="post" >
+    <h1 class="center">Регистрация  </h1>
+    {{> input text='Почта:' name='email' type='email' }}
+    {{> input text='Логин:' name='login' type='text'}}
+    {{> input text='Имя:' name='first_name' type='text' }}
+    {{> input text='Фамилия:' name='second_name'type='text' }}
+    {{> input text='Телефон:' name='phone' type='text'}}
+    {{> input text='Пароль:' name='password' type='password'}}
+    {{> input text='Пароль(еще раз):' name='password2' type='password'}}
 
-    <p>Пароль:<br>
-        <input type="text" name="password" size="40">
-    </p>
-    <p>Пароль(еще раз)<br>
-        <input type="text" name="password" size="40">
-    </p>
-
-    {{> button text='Авторизоваться' }}
-
-
+    {{> button text='Зарегистрировать' }}
 </form>

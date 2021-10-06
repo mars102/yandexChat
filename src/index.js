@@ -1,1 +1,2 @@
-import classes from '../static/style.css';
+import classes from '../static/style.scss';
+
