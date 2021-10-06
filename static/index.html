@@ -1,41 +1,25 @@
----
-pages:
- 5:
-  href: 404
-  page: Профиль
- 3:
-  href: auth
-  page: Вход
- 4:
-  href: reg
-  page: Регистрация
- 0:
-  href: 500
-  page: 500
- 1:
-  href: 404
-  page: 404
- 2:
-  href: 404
-  page: Чат
----
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+    <link rel="stylesheet" href="css/index.scss">
+</head>
 <body>
-<!--<link rel="stylesheet" href="/style.css">-->
-<script src="../src/index.js"></script>
-<div id="root"></div>
- <ul>
-  {{#each pages}}
-  <li>
-   <a
-      class="link color-chat"
-      href="../src/pages/{{href}}.html"
-   >
-    {{ page }}
-   </a>
-  </li>
-  {{/each}}
- </ul>
 
+<div class="main-content-center">
+    <div class="child-content-center card">
+        <h1>Страницы чата</h1>
+
+       <ul>
+           <li>1. <a href="../src/pages/404.html">404</a></li>
+           <li>2. <a href="../src/pages/500.html">500</a></li>
+           <li>3. <a href="../src/pages/authuser.html">Авторизация</a></li>
+           <li>4. <a href="../src/pages/reg.html">Регистрация</a></li>
+           <li>5. <a href="../src/pages/userprofile.html">Профиль</a></li>
+           <li>5. <a href="../src/pages/chat.html">Страница чата</a></li>
+       </ul>
+    </div>
+</div>
 </body>
+
 </html>
